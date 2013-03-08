@@ -1,0 +1,1006 @@
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201] mod_wsgi (pid=11654): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 12, in create_user_view
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]     return user_definitions.create()
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 21, in create
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201]     'id' : new_user.id,
+[Fri Mar 08 06:39:25 2013] [error] [client 171.66.131.201] UnboundLocalError: local variable 'new_user' referenced before assignment
+[Fri Mar 08 07:09:25 2013] [error] [client 171.66.131.201] (70007)The timeout specified has expired: mod_wsgi (pid=12674): Unable to get bucket brigade for request.
+[Fri Mar 08 07:09:27 2013] [error] [client 171.66.131.201] mod_wsgi (pid=12630): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 07:09:27 2013] [error] [client 171.66.131.201] IOError: failed to write data
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201] mod_wsgi (pid=12630): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 28, in create_game_view
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]     return game_definitions.create_game()
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 6, in create_game
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201]     new_game = Game(
+[Fri Mar 08 07:20:18 2013] [error] [client 171.66.131.201] NameError: global name 'Game' is not defined
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201] mod_wsgi (pid=12630): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 28, in create_game_view
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     return game_definitions.create_game()
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 6, in create_game
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     new_game = Game(
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201] NameError: global name 'Game' is not defined
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201] mod_wsgi (pid=12630): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 16, in invite_user_view
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     return user_definitions.invite()
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 110, in invite
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     name = user.name
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201] NameError: global name 'user' is not defined
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201] mod_wsgi (pid=12630): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 32, in create_game_result_view
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     return game_definitions.create_game_result()
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 26, in create_game_result
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201]     new_game_result = GameResult(
+[Fri Mar 08 07:24:40 2013] [error] [client 171.66.131.201] NameError: global name 'GameResult' is not defined
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201] mod_wsgi (pid=13335): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 28, in create_game_view
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     return game_definitions.create_game()
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 6, in create_game
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     new_game = Game(
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201] NameError: global name 'Game' is not defined
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201] mod_wsgi (pid=13335): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 32, in create_game_result_view
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     return game_definitions.create_game_result()
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 26, in create_game_result
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201]     new_game_result = GameResult(
+[Fri Mar 08 07:29:11 2013] [error] [client 171.66.131.201] NameError: global name 'GameResult' is not defined
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201] mod_wsgi (pid=13500): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 28, in create_game_view
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     return game_definitions.create_game()
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 8, in create_game
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     game_owner=user.id,
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201] AttributeError: 'BaseQuery' object has no attribute 'id'
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201] mod_wsgi (pid=13500): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 32, in create_game_result_view
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     return game_definitions.create_game_result()
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 34, in create_game_result
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201]     created_at=datetime.datetime.now())
+[Fri Mar 08 07:31:59 2013] [error] [client 171.66.131.201] NameError: global name 'datetime' is not defined
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201] mod_wsgi (pid=13762): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 12, in create_user_view
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     return user_definitions.create()
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 11, in create
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     new_user = create_user(user, email, password, True)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 34, in create_user
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     db.session.commit()
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/scoping.py", line 114, in do
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     return getattr(self.registry(), name)(*args, **kwargs)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 703, in commit
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     self.transaction.commit()
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 361, in commit
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     self._prepare_impl()
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 340, in _prepare_impl
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     self.session.flush()
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 1718, in flush
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     self._flush(objects)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 1789, in _flush
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     flush_context.execute()
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/unitofwork.py", line 331, in execute
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     rec.execute(self)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/unitofwork.py", line 475, in execute
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     uow
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/persistence.py", line 64, in save_obj
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     table, insert)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/persistence.py", line 558, in _emit_insert_statements
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     execute(statement, params)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1449, in execute
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     params)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1584, in _execute_clauseelement
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     compiled_sql, distilled_params
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1698, in _execute_context
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     context)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1691, in _execute_context
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     context)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 331, in do_execute
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]     cursor.execute(statement, parameters)
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201] IntegrityError: (IntegrityError) duplicate key value violates unique constraint "ix_user_email"
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201] DETAIL:  Key (email)=(M) already exists.
+[Fri Mar 08 07:35:21 2013] [error] [client 171.66.131.201]  'INSERT INTO "user" (name, email, phone, password, subscribed, fb_userid, curr_coins, total_coins_earned, total_coins_purchased, games_played, friends_invited, created_at, recent_activity) VALUES (%(name)s, %(email)s, %(phone)s, %(password)s, %(subscribed)s, %(fb_userid)s, %(curr_coins)s, %(total_coins_earned)s, %(total_coins_purchased)s, %(games_played)s, %(friends_invited)s, %(created_at)s, %(recent_activity)s) RETURNING "user".id' {'friends_invited': None, 'recent_activity': None, 'name': u'N', 'subscribed': True, 'created_at': datetime.datetime(2013, 3, 8, 7, 35, 21, 748514), 'fb_userid': None, 'total_coins_purchased': None, 'total_coins_earned': None, 'phone': None, 'email': u'M', 'games_played': None, 'password': u'a', 'curr_coins': None}
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201] mod_wsgi (pid=13762): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 32, in create_game_result_view
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]     return game_definitions.create_game_result()
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 35, in create_game_result
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]     created_at=datetime.datetime.now())
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]   File "<string>", line 4, in __init__
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/state.py", line 98, in initialize_instance
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]     return manager.original_init(*mixed[1:], **kwargs)
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/ext/declarative.py", line 1566, in _declarative_constructor
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201]     (k, cls_.__name__))
+[Fri Mar 08 07:40:17 2013] [error] [client 171.66.131.201] TypeError: 'created_at' is an invalid keyword argument for GameResult
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201] mod_wsgi (pid=14141): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 32, in create_game_result_view
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     return game_definitions.create_game_result()
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 35, in create_game_result
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     created_at=datetime.datetime.now())
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "<string>", line 4, in __init__
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/state.py", line 98, in initialize_instance
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     return manager.original_init(*mixed[1:], **kwargs)
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/ext/declarative.py", line 1567, in _declarative_constructor
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     setattr(self, k, kwargs[k])
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 155, in __set__
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     instance_dict(instance), value, None)
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 697, in set
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     value = self.fire_replace_event(state, dict_, value, old, initiator)
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 717, in fire_replace_event
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     value = fn(state, value, previous, initiator or self)
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 1000, in emit_backref_from_scalar_set_event
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201]     child_state, child_dict = instance_state(child),\\
+[Fri Mar 08 07:48:43 2013] [error] [client 171.66.131.201] AttributeError: 'BaseQuery' object has no attribute '_sa_instance_state'
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201] mod_wsgi (pid=14912): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 32, in create_game_result_view
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     return game_definitions.create_game_result()
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 35, in create_game_result
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     created_at=datetime.datetime.now())
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "<string>", line 4, in __init__
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/state.py", line 98, in initialize_instance
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     return manager.original_init(*mixed[1:], **kwargs)
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/ext/declarative.py", line 1567, in _declarative_constructor
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     setattr(self, k, kwargs[k])
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 155, in __set__
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     instance_dict(instance), value, None)
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 697, in set
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     value = self.fire_replace_event(state, dict_, value, old, initiator)
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 717, in fire_replace_event
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     value = fn(state, value, previous, initiator or self)
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 1000, in emit_backref_from_scalar_set_event
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     child_state, child_dict = instance_state(child),\\
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201] AttributeError: 'BaseQuery' object has no attribute '_sa_instance_state'
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201] mod_wsgi (pid=14912): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 16, in invite_user_view
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     return user_definitions.invite()
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 114, in invite
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     invited_a_person(email)
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 64, in invited_a_person
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201]     if user.friends_invited:
+[Fri Mar 08 08:03:48 2013] [error] [client 171.66.131.201] AttributeError: 'BaseQuery' object has no attribute 'friends_invited'
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201] mod_wsgi (pid=15234): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 16, in invite_user_view
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]     return user_definitions.invite()
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 114, in invite
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]     invited_a_person(email)
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 64, in invited_a_person
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201]     if user.friends_invited == None:
+[Fri Mar 08 08:10:35 2013] [error] [client 171.66.131.201] AttributeError: 'BaseQuery' object has no attribute 'friends_invited'
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201] mod_wsgi (pid=15314): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 16, in invite_user_view
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     return user_definitions.invite()
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 123, in invite
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     created_at=datetime.datetime.now())
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "<string>", line 4, in __init__
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/state.py", line 98, in initialize_instance
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     return manager.original_init(*mixed[1:], **kwargs)
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/ext/declarative.py", line 1567, in _declarative_constructor
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     setattr(self, k, kwargs[k])
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 155, in __set__
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     instance_dict(instance), value, None)
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 697, in set
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     value = self.fire_replace_event(state, dict_, value, old, initiator)
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 717, in fire_replace_event
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     value = fn(state, value, previous, initiator or self)
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 1000, in emit_backref_from_scalar_set_event
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201]     child_state, child_dict = instance_state(child),\\
+[Fri Mar 08 08:12:22 2013] [error] [client 171.66.131.201] AttributeError: 'BaseQuery' object has no attribute '_sa_instance_state'
+[Fri Mar 08 08:12:22 2013] [error] send: 'ehlo ip-10-166-214-198.us-west-1.compute.internal\\r\\n'
+[Fri Mar 08 08:12:22 2013] [error] reply: '250-mx.google.com at your service, [54.241.22.27]\\r\\n'
+[Fri Mar 08 08:12:22 2013] [error] reply: '250-SIZE 35882577\\r\\n'
+[Fri Mar 08 08:12:22 2013] [error] reply: '250-8BITMIME\\r\\n'
+[Fri Mar 08 08:12:22 2013] [error] reply: '250-AUTH LOGIN PLAIN XOAUTH XOAUTH2\\r\\n'
+[Fri Mar 08 08:12:22 2013] [error] reply: '250 ENHANCEDSTATUSCODES\\r\\n'
+[Fri Mar 08 08:12:22 2013] [error] reply: retcode (250); Msg: mx.google.com at your service, [54.241.22.27]
+[Fri Mar 08 08:12:22 2013] [error] SIZE 35882577
+[Fri Mar 08 08:12:22 2013] [error] 8BITMIME
+[Fri Mar 08 08:12:22 2013] [error] AUTH LOGIN PLAIN XOAUTH XOAUTH2
+[Fri Mar 08 08:12:22 2013] [error] ENHANCEDSTATUSCODES
+[Fri Mar 08 08:12:22 2013] [error] send: 'AUTH PLAIN AGFsZXhqYXVzdGluQGdtYWlsLmNvbQBtYWVwaDAwODk=\\r\\n'
+[Fri Mar 08 08:12:23 2013] [error] reply: '235 2.7.0 Accepted\\r\\n'
+[Fri Mar 08 08:12:23 2013] [error] reply: retcode (235); Msg: 2.7.0 Accepted
+[Fri Mar 08 08:12:23 2013] [error] send: u'mail FROM:<vlasd> size=1129\\r\\n'
+[Fri Mar 08 08:12:23 2013] [error] reply: '250 2.1.0 OK xx10sm5410422pac.15 - gsmtp\\r\\n'
+[Fri Mar 08 08:12:23 2013] [error] reply: retcode (250); Msg: 2.1.0 OK xx10sm5410422pac.15 - gsmtp
+[Fri Mar 08 08:12:23 2013] [error] send: u'rcpt TO:<p@face.com>\\r\\n'
+[Fri Mar 08 08:12:23 2013] [error] reply: '250 2.1.5 OK xx10sm5410422pac.15 - gsmtp\\r\\n'
+[Fri Mar 08 08:12:23 2013] [error] reply: retcode (250); Msg: 2.1.5 OK xx10sm5410422pac.15 - gsmtp
+[Fri Mar 08 08:12:23 2013] [error] send: 'data\\r\\n'
+[Fri Mar 08 08:12:23 2013] [error] reply: '354  Go ahead xx10sm5410422pac.15 - gsmtp\\r\\n'
+[Fri Mar 08 08:12:23 2013] [error] reply: retcode (354); Msg: Go ahead xx10sm5410422pac.15 - gsmtp
+[Fri Mar 08 08:12:23 2013] [error] data: (354, 'Go ahead xx10sm5410422pac.15 - gsmtp')
+[Fri Mar 08 08:12:23 2013] [error] send: 'Content-Type: multipart/mixed; boundary="===============4257952874467100403=="\\r\\nMIME-Version: 1.0\\r\\nSubject: You have been challenged by asdavto a texting contest!\\r\\nFrom: MixedMessage challenges <vlasd>\\r\\nTo: p@face.com\\r\\nDate: Fri, 08 Mar 2013 08:12:23 +0000\\r\\nMessage-ID: <20130308081222.15314.12370@ip-10-166-214-198.us-west-1.compute.internal>\\r\\n\\r\\n--===============4257952874467100403==\\r\\nContent-Type: multipart/alternative;\\r\\n boundary="===============7004569072927588111=="\\r\\nMIME-Version: 1.0\\r\\n\\r\\n--===============7004569072927588111==\\r\\nContent-Type: text/plain; charset="utf-8"\\r\\nMIME-Version: 1.0\\r\\nContent-Transfer-Encoding: base64\\r\\n\\r\\n\\r\\n--===============7004569072927588111==\\r\\nContent-Type: text/html; charset="utf-8"\\r\\nMIME-Version: 1.0\\r\\nContent-Transfer-Encoding: base64\\r\\n\\r\\nPHA+SGV5IFBvb3AgRmFjZSw8L3A+CjxwPllvdSBoYXZlIGJlZW4gY2hhbGxlbmdlZCBieSB5b3Vy\\r\\nIGZyaWVuZCBhc2RhdiBpbiBhIHRleHQgb2ZmISE8L3A+CjxoMj5Zb3UgY2FuIGRvIGJldHRlciE8\\r\\nL2E+PC9oMj4KPHA+RG93bmxvYWQgdGhlIGFwcCBhbmQgYmVhdCB0aGVtIGhvcnJpYmx5PC9wPgo8\\r\\ncD4KQ2hlZXJzLAo8YnI+CkFsZXgKPGJyPgpNaXhlZE1lc3NhZ2UgdGVhbQo8L3A+\\r\\n\\r\\n--===============7004569072927588111==--\\r\\n--===============4257952874467100403==--\\r\\n.\\r\\n'
+[Fri Mar 08 08:12:24 2013] [error] reply: '250 2.0.0 OK 1362730372 xx10sm5410422pac.15 - gsmtp\\r\\n'
+[Fri Mar 08 08:12:24 2013] [error] reply: retcode (250); Msg: 2.0.0 OK 1362730372 xx10sm5410422pac.15 - gsmtp
+[Fri Mar 08 08:12:24 2013] [error] data: (250, '2.0.0 OK 1362730372 xx10sm5410422pac.15 - gsmtp')
+[Fri Mar 08 08:12:24 2013] [error] send: 'quit\\r\\n'
+[Fri Mar 08 08:12:24 2013] [error] reply: '221 2.0.0 closing connection xx10sm5410422pac.15 - gsmtp\\r\\n'
+[Fri Mar 08 08:12:24 2013] [error] reply: retcode (221); Msg: 2.0.0 closing connection xx10sm5410422pac.15 - gsmtp
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201] mod_wsgi (pid=15762): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 16, in invite_user_view
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     return user_definitions.invite()
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 114, in invite
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     invited_a_person(email)
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 64, in invited_a_person
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     if user.friends_invited == None:
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201] AttributeError: 'BaseQuery' object has no attribute 'friends_invited'
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201] mod_wsgi (pid=15762): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 32, in create_game_result_view
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     return game_definitions.create_game_result()
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 35, in create_game_result
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     created_at=datetime.datetime.now())
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "<string>", line 4, in __init__
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/state.py", line 98, in initialize_instance
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     return manager.original_init(*mixed[1:], **kwargs)
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/ext/declarative.py", line 1567, in _declarative_constructor
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     setattr(self, k, kwargs[k])
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 155, in __set__
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     instance_dict(instance), value, None)
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 697, in set
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     value = self.fire_replace_event(state, dict_, value, old, initiator)
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 717, in fire_replace_event
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     value = fn(state, value, previous, initiator or self)
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/attributes.py", line 1000, in emit_backref_from_scalar_set_event
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201]     child_state, child_dict = instance_state(child),\\
+[Fri Mar 08 08:22:27 2013] [error] [client 171.66.131.201] AttributeError: 'BaseQuery' object has no attribute '_sa_instance_state'
+[Fri Mar 08 08:34:47 2013] [error] [client 171.66.131.201] mod_wsgi (pid=16186): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 32, in create_game_result_view
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]     return game_definitions.create_game_result()
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 34, in create_game_result
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]     created_at=datetime.datetime.now())
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]   File "<string>", line 4, in __init__
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/state.py", line 98, in initialize_instance
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]     return manager.original_init(*mixed[1:], **kwargs)
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/ext/declarative.py", line 1566, in _declarative_constructor
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201]     (k, cls_.__name__))
+[Fri Mar 08 08:34:48 2013] [error] [client 171.66.131.201] TypeError: 'player' is an invalid keyword argument for Result
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201] mod_wsgi (pid=16444): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 32, in create_game_result_view
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     return game_definitions.create_game_result()
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 28, in create_game_result
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     user_id=user.id,
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201] AttributeError: 'BaseQuery' object has no attribute 'id'
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201] mod_wsgi (pid=16444): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 16, in invite_user_view
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     return user_definitions.invite()
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 114, in invite
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     invited_a_person(email)
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 64, in invited_a_person
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201]     if user.friends_invited == None:
+[Fri Mar 08 08:38:16 2013] [error] [client 171.66.131.201] AttributeError: 'BaseQuery' object has no attribute 'friends_invited'
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201] mod_wsgi (pid=16805): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 32, in create_game_result_view
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     return game_definitions.create_game_result()
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 41, in create_game_result
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     db.session.commit()
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/scoping.py", line 114, in do
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     return getattr(self.registry(), name)(*args, **kwargs)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 703, in commit
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     self.transaction.commit()
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 361, in commit
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     self._prepare_impl()
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 340, in _prepare_impl
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     self.session.flush()
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 1718, in flush
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     self._flush(objects)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 1789, in _flush
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     flush_context.execute()
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/unitofwork.py", line 331, in execute
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     rec.execute(self)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/unitofwork.py", line 475, in execute
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     uow
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/persistence.py", line 64, in save_obj
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     table, insert)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/persistence.py", line 558, in _emit_insert_statements
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     execute(statement, params)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1449, in execute
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     params)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1584, in _execute_clauseelement
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     compiled_sql, distilled_params
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1698, in _execute_context
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     context)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1691, in _execute_context
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     context)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 331, in do_execute
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     cursor.execute(statement, parameters)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201] IntegrityError: (IntegrityError) insert or update on table "result" violates foreign key constraint "result_game_id_fkey"
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201] DETAIL:  Key (game_id)=(0) is not present in table "game".
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]  'INSERT INTO result (input_phrase, accuracy, wpm, duration, initiating, created_at, user_id, game_id) VALUES (%(input_phrase)s, %(accuracy)s, %(wpm)s, %(duration)s, %(initiating)s, %(created_at)s, %(user_id)s, %(game_id)s) RETURNING result.id' {'user_id': u'3', 'input_phrase': u'Test 1235', 'created_at': datetime.datetime(2013, 3, 8, 8, 44, 30, 927009), 'wpm': u'19.56205', 'duration': u'5.520894', 'game_id': u'0', 'initiating': u'1', 'accuracy': u'27.27272'}
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201] mod_wsgi (pid=16805): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 16, in invite_user_view
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     return user_definitions.invite()
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 114, in invite
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     invited_a_person(email)
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 65, in invited_a_person
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201]     user.friends_invited = user.friends_invited + 1
+[Fri Mar 08 08:44:30 2013] [error] [client 171.66.131.201] TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201] mod_wsgi (pid=17150): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 16, in invite_user_view
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     return user_definitions.invite()
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 114, in invite
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     invited_a_person(email)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 64, in invited_a_person
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     if user.friends_invited == NoneType:
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201] NameError: global name 'NoneType' is not defined
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201] mod_wsgi (pid=17150): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 32, in create_game_result_view
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     return game_definitions.create_game_result()
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 41, in create_game_result
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     db.session.commit()
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/scoping.py", line 114, in do
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     return getattr(self.registry(), name)(*args, **kwargs)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 703, in commit
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     self.transaction.commit()
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 361, in commit
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     self._prepare_impl()
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 340, in _prepare_impl
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     self.session.flush()
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 1718, in flush
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     self._flush(objects)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 1789, in _flush
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     flush_context.execute()
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/unitofwork.py", line 331, in execute
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     rec.execute(self)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/unitofwork.py", line 475, in execute
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     uow
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/persistence.py", line 64, in save_obj
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     table, insert)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/persistence.py", line 558, in _emit_insert_statements
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     execute(statement, params)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1449, in execute
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     params)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1584, in _execute_clauseelement
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     compiled_sql, distilled_params
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1698, in _execute_context
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     context)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1691, in _execute_context
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     context)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 331, in do_execute
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]     cursor.execute(statement, parameters)
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201] IntegrityError: (IntegrityError) insert or update on table "result" violates foreign key constraint "result_game_id_fkey"
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201] DETAIL:  Key (game_id)=(0) is not present in table "game".
+[Fri Mar 08 08:51:15 2013] [error] [client 171.66.131.201]  'INSERT INTO result (input_phrase, accuracy, wpm, duration, initiating, created_at, user_id, game_id) VALUES (%(input_phrase)s, %(accuracy)s, %(wpm)s, %(duration)s, %(initiating)s, %(created_at)s, %(user_id)s, %(game_id)s) RETURNING result.id' {'user_id': u'4', 'input_phrase': u'', 'created_at': datetime.datetime(2013, 3, 8, 8, 51, 15, 575581), 'wpm': u'0', 'duration': u'-0', 'game_id': u'0', 'initiating': u'1', 'accuracy': u'100'}
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201] mod_wsgi (pid=17150): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 16, in invite_user_view
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]     return user_definitions.invite()
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 114, in invite
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]     invited_a_person(email)
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 64, in invited_a_person
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201]     if user.friends_invited == NoneType:
+[Fri Mar 08 08:59:59 2013] [error] [client 171.66.131.201] NameError: global name 'NoneType' is not defined
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201] mod_wsgi (pid=17445): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 16, in invite_user_view
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]     return user_definitions.invite()
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 123, in invite
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]     created_at=datetime.datetime.now())
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]   File "<string>", line 4, in __init__
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/state.py", line 98, in initialize_instance
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]     return manager.original_init(*mixed[1:], **kwargs)
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/ext/declarative.py", line 1566, in _declarative_constructor
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201]     (k, cls_.__name__))
+[Fri Mar 08 09:04:50 2013] [error] [client 171.66.131.201] TypeError: 'player' is an invalid keyword argument for Invite
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201] mod_wsgi (pid=17621): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 16, in invite_user_view
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     return user_definitions.invite()
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 115, in invite
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     create_user(new_name, new_email, "", False)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 34, in create_user
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     db.session.commit()
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/scoping.py", line 114, in do
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     return getattr(self.registry(), name)(*args, **kwargs)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 703, in commit
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     self.transaction.commit()
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 361, in commit
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     self._prepare_impl()
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 340, in _prepare_impl
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     self.session.flush()
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 1718, in flush
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     self._flush(objects)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 1789, in _flush
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     flush_context.execute()
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/unitofwork.py", line 331, in execute
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     rec.execute(self)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/unitofwork.py", line 475, in execute
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     uow
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/persistence.py", line 64, in save_obj
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     table, insert)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/persistence.py", line 558, in _emit_insert_statements
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     execute(statement, params)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1449, in execute
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     params)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1584, in _execute_clauseelement
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     compiled_sql, distilled_params
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1698, in _execute_context
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     context)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1691, in _execute_context
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     context)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 331, in do_execute
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]     cursor.execute(statement, parameters)
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201] IntegrityError: (IntegrityError) duplicate key value violates unique constraint "ix_user_email"
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201] DETAIL:  Key (email)=(p@face.com) already exists.
+[Fri Mar 08 09:07:45 2013] [error] [client 171.66.131.201]  'INSERT INTO "user" (name, email, phone, password, subscribed, fb_userid, curr_coins, total_coins_earned, total_coins_purchased, games_played, friends_invited, created_at, recent_activity) VALUES (%(name)s, %(email)s, %(phone)s, %(password)s, %(subscribed)s, %(fb_userid)s, %(curr_coins)s, %(total_coins_earned)s, %(total_coins_purchased)s, %(games_played)s, %(friends_invited)s, %(created_at)s, %(recent_activity)s) RETURNING "user".id' {'friends_invited': None, 'recent_activity': None, 'name': u'Poop Face', 'subscribed': False, 'created_at': datetime.datetime(2013, 3, 8, 9, 7, 45, 278183), 'total_coins_purchased': None, 'total_coins_earned': None, 'phone': None, 'email': u'p@face.com', 'games_played': None, 'fb_userid': None, 'password': '', 'curr_coins': None}
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201] mod_wsgi (pid=18337): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 36, in grab_games_for_user
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]     return game_definitions.games_for_user()
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 53, in games_for_user
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201]     games = Games.query.filter_by(game_owner=user.id)
+[Fri Mar 08 09:52:43 2013] [error] [client 171.66.131.201] NameError: global name 'Games' is not defined
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201] mod_wsgi (pid=18414): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 36, in grab_games_for_user
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]     return game_definitions.games_for_user()
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 83, in games_for_user
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201]     'id' : user.id,
+[Fri Mar 08 09:53:41 2013] [error] [client 171.66.131.201] AttributeError: 'BaseQuery' object has no attribute 'id'
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201] mod_wsgi (pid=18492): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 36, in grab_games_for_user
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]     return game_definitions.games_for_user()
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 94, in games_for_user
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201]     'finished' : gameResult.finished,
+[Fri Mar 08 09:54:49 2013] [error] [client 171.66.131.201] AttributeError: 'Result' object has no attribute 'finished'
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201] mod_wsgi (pid=18492): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 24, in grab_all_phrases
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     return phrase_definitions.all_phrases()
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/phrase_definitions.py", line 5, in all_phrases
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     phrases = Phrase.query.all()
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2115, in all
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     return list(self)
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2227, in __iter__
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     return self._execute_and_instances(context)
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/query.py", line 2242, in _execute_and_instances
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     result = conn.execute(querycontext.statement, self._params)
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1449, in execute
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     params)
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1584, in _execute_clauseelement
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     compiled_sql, distilled_params
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1698, in _execute_context
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     context)
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1691, in _execute_context
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     context)
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 331, in do_execute
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]     cursor.execute(statement, parameters)
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201] OperationalError: (OperationalError) terminating connection due to administrator command
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201] SSL connection has been closed unexpectedly
+[Fri Mar 08 10:03:44 2013] [error] [client 171.66.131.201]  'SELECT phrase.id AS phrase_id, phrase.type AS phrase_type, phrase.phrase AS phrase_phrase, phrase.priority AS phrase_priority, phrase.active AS phrase_active \\nFROM phrase' {}
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201] mod_wsgi (pid=18492): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 16, in invite_user_view
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     return user_definitions.invite()
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 115, in invite
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     create_user(new_name, new_email, "", False)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/user_definitions.py", line 34, in create_user
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     db.session.commit()
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/scoping.py", line 114, in do
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     return getattr(self.registry(), name)(*args, **kwargs)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 703, in commit
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     self.transaction.commit()
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 361, in commit
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     self._prepare_impl()
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 340, in _prepare_impl
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     self.session.flush()
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 1718, in flush
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     self._flush(objects)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py", line 1789, in _flush
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     flush_context.execute()
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/unitofwork.py", line 331, in execute
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     rec.execute(self)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/unitofwork.py", line 475, in execute
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     uow
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/persistence.py", line 64, in save_obj
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     table, insert)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/persistence.py", line 558, in _emit_insert_statements
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     execute(statement, params)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1449, in execute
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     params)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1584, in _execute_clauseelement
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     compiled_sql, distilled_params
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1698, in _execute_context
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     context)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/base.py", line 1691, in _execute_context
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     context)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/sqlalchemy/engine/default.py", line 331, in do_execute
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     cursor.execute(statement, parameters)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201] IntegrityError: (IntegrityError) duplicate key value violates unique constraint "ix_user_email"
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201] DETAIL:  Key (email)=(p@face.com) already exists.
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]  'INSERT INTO "user" (name, email, phone, password, subscribed, fb_userid, curr_coins, total_coins_earned, total_coins_purchased, games_played, friends_invited, created_at, recent_activity) VALUES (%(name)s, %(email)s, %(phone)s, %(password)s, %(subscribed)s, %(fb_userid)s, %(curr_coins)s, %(total_coins_earned)s, %(total_coins_purchased)s, %(games_played)s, %(friends_invited)s, %(created_at)s, %(recent_activity)s) RETURNING "user".id' {'friends_invited': None, 'fb_userid': None, 'name': u'Poop Face', 'subscribed': False, 'curr_coins': None, 'created_at': datetime.datetime(2013, 3, 8, 10, 5, 43, 946403), 'total_coins_purchased': None, 'total_coins_earned': None, 'phone': None, 'games_played': None, 'recent_activity': None, 'password': '', 'email': u'p@face.com'}
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201] mod_wsgi (pid=18492): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 36, in grab_games_for_user
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     return game_definitions.games_for_user()
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 94, in games_for_user
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201]     'finished' : gameResult.finished,
+[Fri Mar 08 10:05:43 2013] [error] [client 171.66.131.201] AttributeError: 'Result' object has no attribute 'finished'
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201] mod_wsgi (pid=19204): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     return self.wsgi_app(environ, start_response)
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     response = self.make_response(self.handle_exception(e))
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     response = self.full_dispatch_request()
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     rv = self.handle_user_exception(e)
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     rv = self.dispatch_request()
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     return self.view_functions[rule.endpoint](**req.view_args)
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 36, in grab_games_for_user
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     return game_definitions.games_for_user()
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 105, in games_for_user
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     resp = jsonify(data)
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/local/lib/python2.7/dist-packages/flask/helpers.py", line 198, in jsonify
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     indent=None if request.is_xhr else 2), mimetype='application/json')
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/lib/python2.7/dist-packages/simplejson/__init__.py", line 296, in dumps
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     **kw).encode(obj)
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/lib/python2.7/dist-packages/simplejson/encoder.py", line 228, in encode
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     chunks = list(chunks)
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/lib/python2.7/dist-packages/simplejson/encoder.py", line 521, in _iterencode
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     for chunk in _iterencode_dict(o, _current_indent_level):
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/lib/python2.7/dist-packages/simplejson/encoder.py", line 487, in _iterencode_dict
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     for chunk in chunks:
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/lib/python2.7/dist-packages/simplejson/encoder.py", line 401, in _iterencode_list
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     for chunk in chunks:
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/lib/python2.7/dist-packages/simplejson/encoder.py", line 487, in _iterencode_dict
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     for chunk in chunks:
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/lib/python2.7/dist-packages/simplejson/encoder.py", line 531, in _iterencode
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     o = _default(o)
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]   File "/usr/lib/python2.7/dist-packages/simplejson/encoder.py", line 202, in default
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201]     raise TypeError(repr(o) + " is not JSON serializable")
+[Fri Mar 08 10:08:53 2013] [error] [client 171.66.131.201] TypeError: datetime.datetime(2013, 3, 8, 10, 5, 43, 876457) is not JSON serializable
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201] mod_wsgi (pid=19635): Target WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi' cannot be loaded as Python module.
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201] mod_wsgi (pid=19635): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/mixedmessage.wsgi", line 3, in <module>
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]     from app import app as application
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/__init__.py", line 12, in <module>
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]     from app import views, models
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 2, in <module>
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]     from app import user_definitions, phrase_definitions, game_definitions
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 31
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]     accuracy=request.form['finished'],
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201] SyntaxError: keyword argument repeated
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201] mod_wsgi (pid=19635): Target WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi' cannot be loaded as Python module.
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201] mod_wsgi (pid=19635): Exception occurred processing WSGI script '/srv/ip/MixedMessage/mixedmessage.wsgi'.
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201] Traceback (most recent call last):
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/mixedmessage.wsgi", line 3, in <module>
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]     from app import app as application
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/__init__.py", line 12, in <module>
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]     from app import views, models
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/views.py", line 2, in <module>
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]     from app import user_definitions, phrase_definitions, game_definitions
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]   File "/srv/ip/MixedMessage/app/game_definitions.py", line 31
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201]     accuracy=request.form['finished'],
+[Fri Mar 08 10:13:43 2013] [error] [client 171.66.131.201] SyntaxError: keyword argument repeated
