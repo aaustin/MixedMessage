@@ -9,6 +9,7 @@ class User(db.Model):
 	subscribed = db.Column(db.Boolean)
 	fb_userid = db.Column(db.String(64), index = True)
 	curr_coins = db.Column(db.Integer)
+	curr_bombs = db.Column(db.Integer)
 	total_coins_earned = db.Column(db.Integer)
 	total_coins_purchased = db.Column(db.Integer)
 	games_played = db.Column(db.Integer)

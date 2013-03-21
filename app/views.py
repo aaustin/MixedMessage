@@ -15,6 +15,14 @@ def create_user_view():
 def invite_user_view():   
 	return user_definitions.invite()
 
+@app.route('/users/bombs/update', methods=['POST'])
+def update_user_bombs_view():
+	return user_definitions.update_bombs()
+	
+@app.route('/users/coins/update', methods=['POST'])
+def update_user_coins_view():
+	return user_definitions.update_coins()
+	
 @app.route('/users/login')
 def login_user_view():
 	return user_definitions.login(request.args['email'], request.args['password'])	
